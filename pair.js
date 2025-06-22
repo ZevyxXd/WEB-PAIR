@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `Zevyx XD Wa Bot/n*The Bot has a Dark Side💀⛔Use Carefully!*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/94722073057?text=Hey*\n\n*You can join my whatsapp group*\n\n*https://whatsapp.com/channel/0029VbArpaWCHDydH89yDZ2n*`;
+            const sid = `Zevyx XD Wa Bot`/n`*The Bot has a Dark Side💀⛔Use Carefully!*`\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/94722073057?text=Hey*\n\n*You can join my whatsapp group*\n\n*https://whatsapp.com/channel/0029VbArpaWCHDydH89yDZ2n*`;
             const mg = `*Do not share this code to anyone !*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
